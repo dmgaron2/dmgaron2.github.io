@@ -27,13 +27,12 @@ This scatter plot is showing the year constructed vs the number of floors for th
 
 This line graph is showing the total floors vs the mean square footage for the buildings. I decided to use the mean square footage because I thought this was more relevant. Everything is quantitative since it is all straight numbers. I did not not use a color scheme since it is just one line. Overall, this is a relatively simple graph with no interactivity.
 
-<!-- these are written in a combo of html and liquid --> 
 
 <div class="left">
-{% include elements/button.html link="https://github.com/vega/vega/blob/main/docs/data/cars.json" text="The Data" %}
+{% include elements/button.html link="https://github.com/vega/vega/blob/main/docs/data/final_bar.json" text="The Data" %}
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/jnaiman/online_cv_public/blob/main/python_notebooks/test_generate_plots.ipynb" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/dmgaron2/online_cv_public/blob/main/python_notebooks/Workbook.ipynb" text="The Analysis" %}
 </div>
 
