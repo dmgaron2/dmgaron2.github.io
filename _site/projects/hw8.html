@@ -22,12 +22,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Projects">
-  <meta property="og:description" content="I am definitely not a corgi!">
-  <meta property="og:image" content="https://i0.wp.com/www.threecorgis.com///wp-content/uploads/2014/09/three_corgis618-1-1.jpg">
+  <meta property="og:title" content="Buildings Data Visualization">
+  <meta property="og:description" content="For HW8! Data visualizations for the buildings dataset.">
+  <meta property="og:image" content="assets/pngs/interactive_legend.png">
 
-  <title>Projects</title>
-  <meta name="description" content="I am definitely not a corgi!">
+  <title>Buildings Data Visualization</title>
+  <meta name="description" content="For HW8! Data visualizations for the buildings dataset.">
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
 
@@ -73,43 +73,39 @@
   </div>
 
 </nav>
-    <div class="card-columns m-3 mt-5">
+    <div class="col-lg-10 mx-auto mt-5 markdown-body">
+  <h3 id="plot-1">Plot 1:</h3>
 
-  <!-- Local Projects -->
-  <div class="wow animated fadeIn" data-wow-delay=".15s">
-  <a href="/projects/1-vega-lite-project" class="project card text-themed"><img id="vega-lite-example-project-img" class="card-img-top" src="/assets/pngs/cars.png" alt="Vega Lite Example Project" /><div class="card-body">
-      <h5 id="vega-lite-example-project-name" class="card-title">Vega Lite Example Project
-      </h5>
-      <p id="vega-lite-example-project-desc" class="card-text">This is a "showcase" project that uses vega-lite for interactive viz!</p>
-      <p id="vega-lite-example-project-tools" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">Python</span><span class="badge badge-pill text-primary border border-primary ml-1">HTML</span><span class="badge badge-pill text-primary border border-primary ml-1">vega-lite</span></p>
-    </div>
-  </a>
+<vegachart schema-url="/assets/json/final_bar.json" style="width: 100%"></vegachart>
+
+<h3 id="write-up-for-plot-1">Write-Up for Plot 1</h3>
+
+<p>This scatter plot is showing the year constructed vs the number of floors for the buildings based on what the building is being used for. For interactivity, the user is able to choose the use of the building to see the scatter plot for various uses. I chose to base the color on the total floors to make it more visually appealing. The square footage is also displayed when hovering over a data point. With the dropdown and the square footfage being presented when hovering, there is interactivity.</p>
+
+<h3 id="plot-2">Plot 2:</h3>
+
+<vegachart schema-url="/assets/json/chart2.json" style="width: 100%"></vegachart>
+
+<h3 id="write_up-for-plot-2">Write_Up for Plot 2</h3>
+
+<p>This line graph is showing the total floors vs the mean square footage for the buildings. I decided to use the mean square footage because I thought this was more relevant. Everything is quantitative since it is all straight numbers. I did not not use a color scheme since it is just one line. Overall, this is a relatively simple graph with no interactivity.</p>
+
+<!-- these are written in a combo of html and liquid -->
+
+<div class="left">
+<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/vega/vega/blob/main/docs/data/cars.json">
+  The Data
+</a>
 </div>
 
-  <div class="wow animated fadeIn" data-wow-delay=".15s">
-  <a href="/projects/hw8" class="project card text-themed"><img id="buildings-data-visualization-img" class="card-img-top" src="/assets/pngs/interactive_legend.png" alt="Buildings Data Visualization" /><div class="card-body">
-      <h5 id="buildings-data-visualization-name" class="card-title">Buildings Data Visualization
-      </h5>
-      <p id="buildings-data-visualization-desc" class="card-text">For HW8! Data visualizations for the buildings dataset.</p>
-      <p id="buildings-data-visualization-tools" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">Python</span><span class="badge badge-pill text-primary border border-primary ml-1">HTML</span><span class="badge badge-pill text-primary border border-primary ml-1">Altair</span><span class="badge badge-pill text-primary border border-primary ml-1">vega-lite</span></p>
-    </div>
-  </a>
-</div>
-
-  
-
-
-
-
-  <!-- Remote Projects -->
-  
-
-  
-
-  
+<div class="right">
+<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/jnaiman/online_cv_public/blob/main/python_notebooks/test_generate_plots.ipynb">
+  The Analysis
+</a>
 </div>
 
 
+</div>
   </main>
   <footer class="mt-auto py-3 text-center">
 
@@ -152,6 +148,17 @@
 
 </footer>
 
+
+<!-- Custom page specific js files -->
+  
+    <script src='/assets/js/vega.min.js' type="text/javascript"></script>
+  
+    <script src='/assets/js/vega-lite.min.js' type="text/javascript"></script>
+  
+    <script src='/assets/js/vega-embed.min.js' type="text/javascript"></script>
+  
+    <script src='/assets/js/justcharts.js' type="text/javascript"></script>
+  
 
 
 
