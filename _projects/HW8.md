@@ -29,7 +29,7 @@ This line graph is showing the total floors vs the mean square footage for the b
 
 
 <div class="left">
-{% include elements/button.html link="hhttps://github.com/dmgaron2/dmgaron2.github.io/blob/master/_projects/HW8.md" text="The Data" %}
+{% include elements/button.html link="https://github.com/dmgaron2/dmgaron2.github.io/blob/master/_projects/HW8.md" text="The Data" %}
 </div>
 
 <div class="right">
