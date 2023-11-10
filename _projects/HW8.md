@@ -23,7 +23,7 @@ This scatter plot is showing the year constructed vs the number of floors for th
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/final_line.json" style="width: 100%"></vegachart>
 
-### Write_Up for Plot 2
+### Write-Up for Plot 2
 
 This line graph is showing the total floors vs the mean square footage for the buildings. I decided to use the mean square footage because I thought this was more relevant. Everything is quantitative since it is all straight numbers. I did not not use a color scheme since it is just one line. Overall, this is a relatively simple graph with no interactivity.
 
