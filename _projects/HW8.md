@@ -1,6 +1,6 @@
 ---
 name: Buildings Data Visualization
-tools: [Python, HTML, Altair, vega-lite]
+tools: [Python, HTML, Altair]
 image: assets/pngs/interactive_legend.png
 description: For HW8! Data visualizations for the buildings dataset.
 custom_js:
