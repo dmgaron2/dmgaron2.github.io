@@ -21,7 +21,7 @@ This scatter plot is showing the year constructed vs the number of floors for th
 
 ### Plot 2:
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/chart2.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/final_line.json" style="width: 100%"></vegachart>
 
 ### Write_Up for Plot 2
 
