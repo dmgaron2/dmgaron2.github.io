@@ -1,7 +1,7 @@
 ---
 name: Buildings Data Visualization
 tools: [Python, HTML, Altair]
-image: dmgaron2.github.io/assets/pngs/HW8.png
+image: dmgaron2.github.io/assets/pngs/HW8
 description: For HW8! Data visualizations for the buildings dataset.
 custom_js:
   - vega.min
